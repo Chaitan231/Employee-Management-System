@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RemoveEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.RemoveEmployee",
+            "projectName": "Employee Management System"
+        },
+        {
+            "type": "java",
+            "name": "UpdateEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.UpdateEmployee",
+            "projectName": "Employee Management System"
+        },
+        {
+            "type": "java",
+            "name": "View_Employee",
+            "request": "launch",
+            "mainClass": "employee.management.system.View_Employee",
+            "projectName": "Employee Management System",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/mysql-connector-java-8.0.28.jar",
+                "${workspaceFolder}/lib/jcalendar-tz-1.3.3-4.jar",
+                "${workspaceFolder}/lib/ResultSet2xml.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "AddEmployee",
+            "request": "launch",
+            "mainClass": "employee.management.system.AddEmployee",
+            "projectName": "Employee Management System"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "employee.management.system.Login",
+            "projectName": "Employee Management System"
+        },
+        {
+            "type": "java",
+            "name": "Main_class",
+            "request": "launch",
+            "mainClass": "employee.management.system.Main_class",
+            "projectName": "Employee Management System"
+        },
+        {
+            "type": "java",
+            "name": "Splash",
+            "request": "launch",
+            "mainClass": "employee.management.system.Splash",
+            "projectName": "Employee Management System"
+        }
+    ]
+}
